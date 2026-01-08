@@ -1,6 +1,6 @@
 # Multi-Model Ensemble for Noisy Data Classification
 
-## 📌 Project Overview
+##  Project Overview
 This project addresses a real-world noisy data classification problem using multiple
 machine learning models and ensemble learning techniques. The dataset contains missing
 values and noise, which are handled through appropriate preprocessing steps. The goal is
@@ -9,7 +9,7 @@ and generalization.
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 - Handle noisy real-world datasets effectively
 - Apply data preprocessing techniques such as imputation and feature scaling
 - Train and evaluate multiple supervised learning models
@@ -18,7 +18,7 @@ and generalization.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 A real-world dataset (Breast Cancer dataset from `scikit-learn`) is used in this project.
 To simulate real-world conditions, artificial noise and missing values are introduced.
 
@@ -27,7 +27,7 @@ To simulate real-world conditions, artificial noise and missing values are intro
 
 ---
 
-## ⚙️ Data Preprocessing
+##  Data Preprocessing
 The following preprocessing steps are applied:
 - **Missing Value Handling:** Mean Imputation
 - **Feature Scaling:** Standardization using `StandardScaler`
@@ -37,7 +37,7 @@ These steps ensure fair model comparison and improved learning performance.
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 Three supervised learning models are implemented:
 
 1. **Decision Tree**
@@ -51,7 +51,7 @@ All models are evaluated using **5-fold cross-validation**.
 
 ---
 
-## 🔁 Ensemble Learning
+##  Ensemble Learning
 To enhance performance on noisy data, **Bagging (Bootstrap Aggregating)** is applied using
 Decision Trees as base learners.
 
@@ -62,7 +62,7 @@ Decision Trees as base learners.
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 Model performance is evaluated using:
 - Accuracy
 - Precision
@@ -74,7 +74,7 @@ These metrics provide a comprehensive evaluation of classification performance.
 
 ---
 
-## 📈 Results & Observations
+##  Results & Observations
 - Decision Trees tend to overfit noisy data without pruning
 - SVM performs well due to regularization and margin maximization
 - Ensemble learning outperforms individual models by reducing variance
@@ -82,7 +82,7 @@ These metrics provide a comprehensive evaluation of classification performance.
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 This project demonstrates that ensemble learning methods, combined with proper data
 preprocessing and regularization, provide robust and reliable performance on noisy
 real-world datasets. Such approaches are highly suitable for practical machine learning
@@ -90,7 +90,7 @@ applications.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - NumPy
 - Pandas
@@ -100,12 +100,12 @@ applications.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Hina Nadeem**  
 Bachelor of Artificial Intelligence  
 Machine Learning Assignment Project
 
 ---
 
-## 📄 License
+##  License
 This project is for academic and educational purposes only.
